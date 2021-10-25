@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css"></link>
+</head>
+<body>
+    <div id = "container">
+        <div id = "result">
+            <p id = "display">
+
+            </p>
+        </div>
+        <div id = "keypad">
+            <table id = "table">
+                <tr class = "table-row">
+                    <td class="other-button" data-value="AC">
+                        AC
+                    </td>
+                    <td class="other-button" data-value="plus-minus">
+                        +/-
+                    </td>
+                    <td class="other-button" data-value="%">
+                        %
+                    </td>
+                    <td class="operator" data-value="/">
+                        /
+                    </td>
+                </tr>
+                <tr class = "table-row">
+                    <td class="other-button" data-value="7">
+                        7
+                    </td>
+                    <td class="other-button" data-value="8">
+                        8
+                    </td>
+                    <td class="other-button" data-value="9">
+                        9
+                    </td>
+                    <td class="operator" data-value="*">
+                        *
+                    </td>
+                </tr>
+                <tr class = "table-row">
+                    <td class="other-button" data-value="4">
+                        4
+                    </td>
+                    <td class="other-button" data-value="5">
+                        5
+                    </td>
+                    <td class="other-button" data-value="6">
+                        6
+                    </td>
+                    <td class="operator" data-value="-">
+                        -
+                    </td>
+                </tr>
+                <tr class = "table-row">
+                    <td class="other-button" data-value="1">
+                        1
+                    </td>
+                    <td class="other-button" data-value="2">
+                        2
+                    </td>
+                    <td class="other-button" data-value="3">
+                        3
+                    </td>
+                    <td class="operator" data-value="+">
+                        +
+                    </td>
+                </tr>
+                <tr class = "table-row">
+                    <td class="other-button" colspan="2" data-value="0">
+                        0
+                    </td>
+                    <!-- <td class="other-button">
+
+                    </td> -->
+                    <td class="other-button" data-value=".">
+                        .
+                    </td>
+                    <td class="operator" data-value="=">
+                        =
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
